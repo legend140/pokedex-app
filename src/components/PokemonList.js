@@ -48,7 +48,7 @@ const PokemonList = props => {
     if (loading) {
         return (
             <>
-            <Header handleToggleSearch={handleToggleSearch} toggleSearch={toggleSearch} />
+            <Header showSearch={true} handleToggleSearch={handleToggleSearch} toggleSearch={toggleSearch} />
             <div className="spinner">
                 <img src="spinner.gif" alt="Loading Spinner" />
             </div>
@@ -58,7 +58,7 @@ const PokemonList = props => {
 
     return (
         <>
-            <Header handleToggleSearch={handleToggleSearch} toggleSearch={toggleSearch} />
+            <Header showSearch={true} handleToggleSearch={handleToggleSearch} toggleSearch={toggleSearch} />
             {toggleSearch && <Search onSearch={handleSearch} />}
             <div className="pokedex-grid">
             {filteredPokemons.map((pokemon) => (

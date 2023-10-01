@@ -1,0 +1,59 @@
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.spinner img {
+  width: 50px;
+  height: 50px;
+}
+
+.pokemon-detail {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-detail h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pokemon-detail img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.pokemon-detail p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Styles for the Base Stats section */
+.pokemon-detail h3 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.pokemon-detail ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pokemon-detail li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
