@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Hello, welcome to my pokedex app
+If this is the first time you have cloned the project please run:
+### `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
